@@ -1,0 +1,48 @@
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000;
+    font-size: 14px;
+    text-align: center;
+    width: 80px;
+}
+.add_transaction_logo {
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.add_transaction_text, .add_transaction_logo {
+    display: inline-block;
+}
+.add_transaction_panel_text {
+    width: 70%;
+    margin: 5px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    border: 1px solid gray;
+}
+.add_transaction_div_sender_details {
+    width: 70%;
+    margin: 5px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    border: 1px solid gray;
+}
+.employe_login_panel {
+    max-width: 500px;
+    margin: 10px auto;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 3px gray;
+}
+.employee_login_icon {
+    width: 20%;
+}

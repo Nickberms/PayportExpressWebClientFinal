@@ -1,0 +1,41 @@
+.panels {
+    max-width: 1300px;
+    height: 90vh;
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    overflow: scroll;
+}
+.branch_cards {
+    max-width: 200px;
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    overflow: hidden;
+}
+.branch_card_headers {
+    padding: 3px;
+    background-color: #06BF7B;
+}
+#branch_data_text, .branch_card_icon {
+    display: inline-block;
+}
+.add_branches_button_Wrapper {
+    width: 20%;
+}
+.branches_table_container {
+    width: 100%;
+    height: 48vh;
+    overflow: scroll;
+}
+.employee_table_container {
+    width: 100%;
+    height: 48vh;
+    overflow: scroll;
+}
+.employee_table_wrapper {
+    width: 90vw;
+}
+.branches_table_wrapper {
+    width: 90vw;
+}
