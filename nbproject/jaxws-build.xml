@@ -28,8 +28,8 @@
     </target>
     <target name="wsimport-client-TransactionWebServices" depends="wsimport-init">
         <mkdir dir="${build.generated.dir}/jax-wsCache/TransactionWebServices"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/TransactionWebServices" destdir="${build.generated.dir}/jax-wsCache/TransactionWebServices" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/TransactionWebServices/wsdl/localhost_8084/PayportExpressWeb/TransactionWebServices.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://136.172.221.198:8084/PayportExpressWeb/TransactionWebServices?wsdl" xnocompile="true" xendorsed="true">
-            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/TransactionWebServices/wsdl/localhost_8084/PayportExpressWeb/TransactionWebServices.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/TransactionWebServices" destdir="${build.generated.dir}/jax-wsCache/TransactionWebServices" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/TransactionWebServices/wsdl/" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://136.172.221.198:8084/PayportExpressWeb/TransactionWebServices?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/TransactionWebServices/wsdl/"/>
             <produces dir="${build.generated.dir}/jax-wsCache/TransactionWebServices"/>
         </wsimport>
         <copy todir="${build.generated.sources.dir}/jax-ws">
@@ -44,8 +44,8 @@
     </target>
     <target name="wsimport-client-BranchWebServices" depends="wsimport-init">
         <mkdir dir="${build.generated.dir}/jax-wsCache/BranchWebServices"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/BranchWebServices" destdir="${build.generated.dir}/jax-wsCache/BranchWebServices" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/BranchWebServices/wsdl/localhost_8084/PayportExpressWeb/BranchWebServices.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://136.172.221.198:8084/PayportExpressWeb/BranchWebServices?wsdl" xnocompile="true" xendorsed="true">
-            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/BranchWebServices/wsdl/localhost_8084/PayportExpressWeb/BranchWebServices.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/BranchWebServices" destdir="${build.generated.dir}/jax-wsCache/BranchWebServices" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/BranchWebServices/wsdl/" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://136.172.221.198:8084/PayportExpressWeb/BranchWebServices?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/BranchWebServices/wsdl/"/>
             <produces dir="${build.generated.dir}/jax-wsCache/BranchWebServices"/>
         </wsimport>
         <copy todir="${build.generated.sources.dir}/jax-ws">
@@ -60,8 +60,8 @@
     </target>
     <target name="wsimport-client-EmployeeWebServices" depends="wsimport-init">
         <mkdir dir="${build.generated.dir}/jax-wsCache/EmployeeWebServices"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/EmployeeWebServices" destdir="${build.generated.dir}/jax-wsCache/EmployeeWebServices" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/EmployeeWebServices/wsdl/localhost_8084/PayportExpressWeb/EmployeeWebServices.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://136.172.221.198:8084/PayportExpressWeb/EmployeeWebServices?wsdl" xnocompile="true" xendorsed="true">
-            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/EmployeeWebServices/wsdl/localhost_8084/PayportExpressWeb/EmployeeWebServices.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/EmployeeWebServices" destdir="${build.generated.dir}/jax-wsCache/EmployeeWebServices" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/EmployeeWebServices/wsdl/" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://136.172.221.198:8084/PayportExpressWeb/EmployeeWebServices?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/EmployeeWebServices/wsdl/"/>
             <produces dir="${build.generated.dir}/jax-wsCache/EmployeeWebServices"/>
         </wsimport>
         <copy todir="${build.generated.sources.dir}/jax-ws">
@@ -76,8 +76,8 @@
     </target>
     <target name="wsimport-client-AdminWebServices" depends="wsimport-init">
         <mkdir dir="${build.generated.dir}/jax-wsCache/AdminWebServices"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/AdminWebServices" destdir="${build.generated.dir}/jax-wsCache/AdminWebServices" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/AdminWebServices/wsdl/localhost_8084/PayportExpressWeb/AdminWebServices.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://136.172.221.198:8084/PayportExpressWeb/AdminWebServices?wsdl" xnocompile="true" xendorsed="true">
-            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/AdminWebServices/wsdl/localhost_8084/PayportExpressWeb/AdminWebServices.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/AdminWebServices" destdir="${build.generated.dir}/jax-wsCache/AdminWebServices" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/AdminWebServices/wsdl/" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://136.172.221.198:8084/PayportExpressWeb/AdminWebServices?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/AdminWebServices/wsdl/"/>
             <produces dir="${build.generated.dir}/jax-wsCache/AdminWebServices"/>
         </wsimport>
         <copy todir="${build.generated.sources.dir}/jax-ws">
